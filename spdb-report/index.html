@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>浦发银行(600000.SH) 行情分析报表 - 2026年4月18日</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="report-header">
+  <h1>浦发银行 (600000.SH)</h1>
+  <p class="subtitle">行情深度分析报表</p>
+  <p class="meta">数据来源：上交所 · 报告日期：2026-04-18</p>
+</div>
+
+<div class="container">
+  <div class="price-hero">
+    <div class="price-main">
+      <div class="price-value" data-animate="13.51" data-prefix="" data-suffix="元">--</div>
+      <div class="price-change up">
+        <span class="arrow">&#9650;</span>
+        +0.04 (+0.29%)
+      </div>
+    </div>
+    <div class="price-detail-grid">
+      <div class="price-detail-item"><div class="label">今开</div><div class="value">13.45</div></div>
+      <div class="price-detail-item"><div class="label">最高</div><div class="value" style="color:var(--danger)">14.14</div></div>
+      <div class="price-detail-item"><div class="label">最低</div><div class="value" style="color:var(--success)">13.18</div></div>
+      <div class="price-detail-item"><div class="label">昨收</div><div class="value">13.47</div></div>
+      <div class="price-detail-item"><div class="label">振幅</div><div class="value">4.92%</div></div>
+      <div class="price-detail-item"><div class="label">成交额</div><div class="value">93.4亿</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-title"><span class="icon"></span>核心指标</div>
+    <div class="metrics-grid">
+      <div class="metric-card"><div class="metric-label">总市值</div><div class="metric-value" data-animate="3527.56" data-prefix="" data-suffix="亿">--</div><div class="metric-sub">流通市值 1014.85亿</div></div>
+      <div class="metric-card"><div class="metric-label">换手率</div><div class="metric-value" data-animate="3.11" data-prefix="" data-suffix="%">--</div><div class="metric-sub">自由流通换手率较高</div></div>
+      <div class="metric-card"><div class="metric-label">市盈率 (TTM)</div><div class="metric-value" data-animate="19.37" data-prefix="" data-suffix="倍">--</div><div class="metric-sub">银行板块中等水平</div></div>
+      <div class="metric-card"><div class="metric-label">市净率 (PB)</div><div class="metric-value" data-animate="4.01" data-prefix="" data-suffix="倍">--</div><div class="metric-sub">高于行业平均</div></div>
+    </div>
+  </div>
+  <div class="section"><div class="section-title"><span class="icon"></span>近期价格走势</div><div class="chart-wrapper"><canvas id="priceChart"></canvas></div></div>
+  <div class="section">
+    <div class="section-title"><span class="icon"></span>成交量分析</div>
+    <div class="chart-wrapper" style="height:200px"><canvas id="volumeChart"></canvas></div>
+    <div style="margin-top:16px"><table class="data-table"><thead><tr><th>日期</th><th>成交量(手)</th><th>成交额(亿元)</th><th>涨跌幅</th><th>环比量能</th></tr></thead><tbody><tr><td>04-16</td><td>53,715</td><td>18.12</td><td class="text-down">-1.08%</td><td>--</td></tr><tr><td>04-17</td><td>200,611</td><td>47.44</td><td class="text-down">-0.22%</td><td class="text-up">+273.4%</td></tr><tr><td>04-18</td><td>522,024</td><td>93.40</td><td class="text-up">+0.29%</td><td class="text-up">+260.2%</td></tr></tbody></table></div>
+  </div>
+  <div class="section">
+    <div class="section-title"><span class="icon"></span>交易统计</div>
+    <div class="metrics-grid">
+      <div class="metric-card"><div class="metric-label">成交笔数</div><div class="metric-value">83,712</div><div class="metric-sub">交易活跃度较高</div></div>
+      <div class="metric-card"><div class="metric-label">笔均成交额</div><div class="metric-value">6.89万</div><div class="metric-sub">机构参与度一般</div></div>
+      <div class="metric-card"><div class="metric-label">主动买入量</div><div class="metric-value" style="color:var(--danger)">1,789万手</div><div class="metric-sub">主动买入意愿强</div></div>
+      <div class="metric-card"><div class="metric-label">主动卖出量</div><div class="metric-value" style="color:var(--success)">1,578万手</div><div class="metric-sub">卖压相对较轻</div></div>
+    </div>
+    <div style="margin-top:20px"><h4 style="font-size:15px;margin-bottom:12px;">分时段交易统计</h4><table class="data-table"><thead><tr><th>时段</th><th>成交量(手)</th><th>成交额(万元)</th><th>占比</th></tr></thead><tbody><tr><td>集合竞价</td><td>10,363</td><td>60,463</td><td>12.3%</td></tr><tr><td>连续竞价</td><td>4,314</td><td>3,420</td><td>5.1%</td></tr><tr><td>大宗交易</td><td>508</td><td>167</td><td>0.6%</td></tr><tr><td>其他</td><td>89</td><td>14</td><td>0.1%</td></tr></tbody></table></div>
+  </div>
+  <div class="section">
+    <div class="section-title"><span class="icon"></span>资金流向分析</div>
+    <div class="fund-flow"><canvas id="flowGauge" width="160" height="100" style="flex-shrink:0"></canvas><div class="flow-details"><div class="flow-row"><span>主动买入金额</span><span style="color:var(--danger);font-weight:600">4.76亿元</span></div><div class="flow-row"><span>主动卖出金额</span><span style="color:var(--success);font-weight:600">2.51亿元</span></div><div class="flow-row"><span>净买入金额</span><span style="color:var(--danger);font-weight:700">+0.33亿元</span></div><div class="flow-row"><span>主动买入/卖出比</span><span style="font-weight:600">1.32 : 1</span></div></div></div>
+    <p style="margin-top:12px;font-size:13px;color:var(--text-secondary)">* 资金流向基于主动成交统计，正值表示买方力量占优</p>
+  </div>
+  <div class="section">
+    <div class="section-title"><span class="icon"></span>与大盘对比</div>
+    <div class="compare-grid"><div class="compare-item"><div class="compare-name">浦发银行 (600000.SH)</div><div class="compare-row"><span>收盘价</span><span class="val">13.51元</span></div><div class="compare-row"><span>涨跌幅</span><span class="val text-up">+0.29%</span></div><div class="compare-row"><span>成交额</span><span class="val">93.40亿</span></div><div class="compare-row"><span>换手率</span><span class="val">3.11%</span></div><div class="compare-row"><span>振幅</span><span class="val">4.92%</span></div></div><div class="compare-item"><div class="compare-name">上证指数 (000001.SH)</div><div class="compare-row"><span>收盘价</span><span class="val">2956.97点</span></div><div class="compare-row"><span>涨跌幅</span><span class="val text-down">-1.13%</span></div><div class="compare-row"><span>成交额</span><span class="val">2624.14亿</span></div><div class="compare-row"><span>换手率</span><span class="val">1.56%</span></div><div class="compare-row"><span>振幅</span><span class="val">1.21%</span></div></div></div>
+    <div style="margin-top:16px;padding:14px 18px;background:#e8f5e9;border-radius:8px;font-size:14px"><strong style="color:var(--success)">&#9679; 跑赢大盘</strong> — 当日浦发银行上涨 0.29%，而上证指数下跌 1.13%，跑赢大盘 <b>1.42个百分点</b>。换手率和振幅均显著高于大盘平均水平，说明个股交投活跃。</div>
+  </div>
+  <div class="section">
+    <div class="section-title"><span class="icon"></span>大盘估值参考</div>
+    <table class="data-table"><thead><tr><th>指数</th><th>市盈率(TTM)</th><th>市净率</th><th>换手率</th><th>股息率</th></tr></thead><tbody><tr><td>上证指数</td><td>10.16倍</td><td>2.64倍</td><td>1.56%</td><td>2.07%</td></tr><tr><td>沪深300</td><td>16.93倍</td><td>1.82倍</td><td>2.83%</td><td>2.92%</td></tr><tr><td><b>浦发银行</b></td><td><b>19.37倍</b></td><td><b>4.01倍</b></td><td><b>3.11%</b></td><td>--</td></tr></tbody></table>
+  </div>
+  <div class="section">
+    <div class="section-title"><span class="icon"></span>综合分析</div>
+    <div class="analysis-box">
+      <p><strong>1. 行情表现：</strong>浦发银行4月18日微涨0.29%，报收13.51元。日内振幅达4.92%，显示多空博弈激烈。当日最高探至14.14元，最低触及13.18元，最终收盘接近日内中枢位置。</p><br>
+      <p><strong>2. 量能分析：</strong>成交额93.4亿元，较前一交易日(47.4亿)放量约97%，连续两个交易日放量。成交笔数8.37万笔，显示市场参与度显著提升。</p><br>
+      <p><strong>3. 资金面：</strong>主动买入资金4.76亿元，卖出2.51亿元，净流入约0.33亿元。买入/卖出比为1.32:1，买方力量占优，资金呈净流入态势。</p><br>
+      <p><strong>4. 相对大盘：</strong>上证指数当日下跌1.13%，浦发银行逆势收红，跑赢大盘1.42个百分点。在银行板块中表现相对强势。</p><br>
+      <p><strong>5. 估值水平：</strong>TTM市盈率19.37倍，市净率4.01倍，在银行板块中偏高。换手率3.11%显示市场关注度较高。</p>
+    </div>
+  </div>
+</div>
+
+<div class="report-footer">
+  <p>数据来源：上海证券交易所 (dmpp) · 本报告仅供参考，不构成投资建议</p>
+  <p style="margin-top:4px">浦发银行(600000.SH) 行情分析报表 · 2026-04-18</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
